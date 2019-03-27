@@ -1,0 +1,59 @@
+
+#score {
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+img {
+	display: block;
+	margin: 0px 30px;
+
+
+}
+
+body {
+	margin: 0px 30px;
+	background-color: rgb(133,120,116);
+	background-image:url(images/background.jpg);
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #000000;
+	font-family: 'Monoton', cursive;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+	font-family: 'Fredericka the Great', cursive;
+}
+
+div{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    color: #000000;
+        }
+
+canvas{
+    display:block;
+    margin:0 auto;
+    box-shadow: 0px 0px 20px 10px #67b3dd;
+        }
+
+@media screen and (max-width: 667px) {
+  canvas {
+    width: 100%;
+    margin: 0.5rem auto;
+  	font-size: 1.2rem;
+    width: 90%;
+    height: inherit;
+  }
